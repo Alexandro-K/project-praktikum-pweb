@@ -58,13 +58,13 @@ node index.js
   
 Run:
 ```
-npm install *module_name*
+npm install [module_name]
 ```
   
 ## Authors
-**Alexandro Kalindra Enggarrinoputra** [Alexandro-K](https://github.com/Alexandro-K)
-**Rayyan Alghifari**
-**Rangga Pratama Cahyadi**
+* **Alexandro Kalindra Enggarrinoputra** [Alexandro-K](https://github.com/Alexandro-K)
+* **Rayyan Alghifari**
+* **Rangga Pratama Cahyadi**
 
 ## Version History
 * 0.1
