@@ -49,7 +49,7 @@ npm run dev
 * **Backend**
 ```
 cd backend
-node index.js
+php -S localhost:5000
 ```
 
 ## Help
