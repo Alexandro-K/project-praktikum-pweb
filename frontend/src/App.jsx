@@ -46,15 +46,15 @@ export default function App() {
               }
             />
 
-            {/* Showing the title, authors, price, edit and the delet button */}
+            {/* Showing the title, authors with year, price, edit and the delete button */}
             <h3>{b.judul}</h3>
-            <p>By {b.penulis}</p>
+            <p>By {b.penulis} ({b.tahun})</p>
             <p className="harga">Rp {Number(b.harga).toLocaleString()}</p>
 
             <div className="btn-container">
               {/* Connect the edit button to edit page with given id */}
               <a href={`/edit/${b.id}`} className="btn edit">Edit</a> 
-              {/* Connect the edit button to delete page with given id */}
+              {/* Connect the delete button to delete page with given id */}
               <button className="btn hapus" onClick={() => hapusBuku(b.id)}>Hapus</button>
             </div>
 
